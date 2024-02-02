@@ -1,0 +1,66 @@
+body {
+    max-width: 1440px;
+}
+
+.container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.container li {
+    margin-top: 10px;
+    margin: auto;
+
+}
+
+.container a {
+    color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    text-decoration: none;
+
+
+}
+
+.container .logo {
+    color: #000;
+    font-family: "Rancho", cursive;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+span{
+    color: #2A9D8F;
+}
+.button-orange h2{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px #f4a261;
+    color: #fff;
+    background-color: #f4a261;
+    width: 165px;
+    height: 50px;
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+span .button{
+    align-items: center;
+    margin-bottom: 50px;
+}
