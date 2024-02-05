@@ -1,5 +1,6 @@
 body {
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .container ul {
@@ -41,10 +42,12 @@ h2 {
     margin-left: 130px;
     margin-top: 150px;
 }
-span{
+
+span {
     color: #2A9D8F;
 }
-.button-orange h2{
+
+.button-initial {
     border-radius: 10px;
     box-shadow: 5px 5px 15px 0px #f4a261;
     color: #fff;
@@ -58,9 +61,21 @@ span{
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    margin-left: 125px;
 }
 
-span .button{
-    align-items: center;
-    margin-bottom: 50px;
+.button-orange {
+    display: flex;
+
+}
+
+.button-orange p {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 8px 90px;
+    margin:0 20px;
 }
